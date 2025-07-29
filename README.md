@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todos App
+
+A modern and responsive Todo application built with **Next.js**, **React**, and **Tailwind CSS** to manage tasks efficiently.
+
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+
+## About the Project
+Todos App is a web-based application designed to help users create, manage, and track their tasks. Built with **Next.js** for server-side rendering and optimal performance, styled with **Tailwind CSS** for a sleek and responsive design, and powered by **React** for dynamic functionality. The project uses the **Geist** font family (via `next/font`) for modern typography.
+
+This project is hosted on GitHub: [Nekouie/TodosApp](https://github.com/Nekouie/TodosApp).
+
+## Live Demo
+Check out the live version of the app here:  
+[https://nekouie.github.io/TodosApp/](https://nekouie.github.io/TodosApp/)  
+*(Ensure the deployment is complete; see Usage for deployment instructions)*
 
 ## Getting Started
+Follow these instructions to set up and run the project locally.
 
-First, run the development server:
+### Prerequisites
+You need to have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com/), [pnpm](https://pnpm.io/), or [bun](https://bun.sh/) for managing dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nekouie/TodosApp.git
