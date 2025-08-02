@@ -16,7 +16,7 @@ This project is hosted on GitHub: [Nekouie/TodosApp](https://github.com/Nekouie/
 
 ## Live Demo
 Check out the live version of the app here:  
-[https://nekouie.github.io/TodosApp/](https://nekouie.github.io/TodosApp/)  
+[https://nekouie.github.io/TodosApp/](https://todos-app-nekouie.vercel.app/)  
 *(Ensure the deployment is complete; see Usage for deployment instructions)*
 
 ## Getting Started
