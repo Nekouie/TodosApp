@@ -1,5 +1,3 @@
-import {ThemeProvider} from "@mui/material";
-import {newTheme} from "@/app/[theme]/theme";
 import {DateTimePicker} from "@mui/x-date-pickers";
 
 const DateTime = () => {

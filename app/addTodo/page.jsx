@@ -1,8 +1,6 @@
 "use client"
 import Link from "next/link";
-import {DatePicker} from '@mui/x-date-pickers/DatePicker';
 import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
-import {DateTimePicker} from "@mui/x-date-pickers";
 import {AdapterDayjs} from '@mui/x-date-pickers/AdapterDayjs';
 import DateTime from "@/app/dateTime";
 
@@ -59,7 +57,7 @@ const AddTodo = () => {
                             " border-2"}
 
                     >
-                        add todo
+                        Add Todo
                     </button>
                 </div>
 
@@ -74,7 +72,7 @@ const AddTodo = () => {
                         " border-purple-800 bg-gray-600 active:bg-purple-500" +
                         " hover:bg-purple-800 hover:cursor-pointer transition hover:scale-95" +
                         " border-2"}>
-                        other todo
+                        Other Todo
                     </Link>
                 </div>
             </div>

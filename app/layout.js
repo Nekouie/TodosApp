@@ -1,8 +1,7 @@
 import {Geist, Geist_Mono} from "next/font/google";
-import "./globals.css";
+import "./global.css";
 import MainBox from "@/app/mainBoxLayout";
 import Background from "@/app/background";
-import {ThemeProvider} from "@mui/material";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",

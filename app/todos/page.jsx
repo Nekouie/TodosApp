@@ -6,7 +6,7 @@ const TodosList = () => {
     return (
         <>
             <div className="flex items-center justify-center text-3xl">
-                <div className={"w-full flex justify-center items-center bg-gray-500 absolute" +
+                <div className={"w-full flex justify-center items-center bg-gray-600 absolute" +
                     " top-2" +
                     " h-1/9 rounded-2xl"}>
                     <p>Todos List </p>
@@ -18,7 +18,8 @@ const TodosList = () => {
                     <AccordionList/>
                 </div>
                 <Link className={"w-3/4 bg-gray-600 h-1/7 justify-center text-3xl flex" +
-                    " items-center rounded-2xl transition hover:scale-95 hover:bg-purple-800" +
+                    " items-center rounded-2xl transition duration-500 hover:scale-95" +
+                    " hover:bg-purple-800" +
                     " absolute bottom-0 "} href="/addTodo">
                     Add Todo
                 </Link>
